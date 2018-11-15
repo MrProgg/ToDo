@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Список дел</title>
+	<link rel="stylesheet" href="main.css" />
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<div id="fixed-container">
+		<div id="left-collum">
+			<p class="collum-description">Список дел</p>
+			<div id="empty-list">
+				<p>Список пуст...</p>
+			</div>
+			<div id="task-container">
+				<div class='one-task'>
+					<div class='new-task'>Купить лошадь
+						<img class='delete-button' src='img/red-x.png' alt='del'><img class='description-open-button' src='img/Black-triangle.png' alt='open'>
+					</div>
+					<div class='new-task-description'>По цене 300 т.р. за штуку</div>
+				</div>
+				<div class='one-task'>
+						<div class='new-task'>Позвонить маме
+							<img class='delete-button' src='img/red-x.png' alt='del'><img class='description-open-button' src='img/Black-triangle.png' alt='open'>
+						</div>
+						<div class='new-task-description'>Пригласить в кино</div>
+					</div>
+			</div>
+		</div>
+		<div id="right-collum">
+			<p class="collum-description">Добавить новое дело</p>
+			<div class="form-input">
+				<!-- <form> -->
+					<label>
+						<p class="form-hints">* Название</p>
+						<input type="text" required>
+					</label>
+					<label>
+						<p class="form-hints">*Описание</p>
+						<textarea required></textarea>
+					</label>
+					<button>Добавить дело</button>
+				<!-- </form> -->
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+
+</html>
