@@ -141,3 +141,15 @@ textarea {
 	text-align: center;
 	padding-top: 20px;
 }
+
+#warn {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #1567e2;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
