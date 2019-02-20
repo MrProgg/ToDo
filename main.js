@@ -32,7 +32,7 @@ $(function () {
 				}, 2500)
 				check = true
 
-// Scrols same task to the top
+// Scrols marked task to the top
 				$([document.documentElement, document.body]).animate({
 					scrollTop: $(this).offset().top -70
 			}, 500);
